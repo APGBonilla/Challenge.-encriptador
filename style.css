@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-color: #f4f4fc;
+    display: flex;
+    width: 100vw;
+    height: 100vw;
+    overflow: hidden;
+    min-height: 100vh;
+    box-sizing: border-box;
+
+}
+
+header{
+    width: 100%;
+    height: 70px;
+}
+.logo{
+    width: 120px;
+    height: 48px;
+    padding-top: 1%;
+    padding-left: 0.5%;
+}
+main{
+    position:absolute;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor-input{
+
+width: 577px;
+height: 48px;
+padding-top: 10%;
+padding-left: 10.6%;
+
+}
+.caja-input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color:#f4f4fc ;
+    color: #0A3871;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'inter', sans-serif;
+    
+}
+.alert{
+    width: 229px;
+    height: 18px;
+    padding-top: 70%;
+    padding-left:240px;
+}
+
+.ocultar{
+    display: none;
+}
+.botones{
+    position: absolute;
+    top: 80px;
+    height: 80px;
+    padding-left:10.5% ;
+    padding-top: 12%;
+}
+.boton-encriptar{
+    width: 328px;
+    height: 60px;
+    border-radius: 24px;
+    background-color:#0A3871;
+    color:#f4f4fc;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.boton-desencriptar{
+    width: 328px;
+    height: 60px;
+    border-radius: 24px;
+    background-color:#D8DFE8;    ;
+    color:#0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.caja-output{
+    background-color: white;
+    width: 400px;
+    height: 944px;
+}
+.contenedor-el-muneco{
+    background-color: white;
+    width: 400px;
+    height: 500px; 
+}
+.aviso{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: gray;
+}
